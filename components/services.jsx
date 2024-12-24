@@ -16,13 +16,7 @@ function services() {
             <li className={style.li}><Done className={style.icon}/>  Full-stack development</li>
             <li className={style.li}><Done className={style.icon}/>Static Website Service</li>
             <li className={style.li}><Done className={style.icon}/> Dynamic Website</li>
-            <li className={style.li}><Done className={style.icon}/> eCommerce Development</li>
-            <li className={style.li}><Done className={style.icon}/> Website Maintenance</li>
-            <li className={style.li}><Done className={style.icon}/> Realtime Chat</li>
-            <li className={style.li}><Done className={style.icon}/> Social media applications</li>
             <li className={style.li}><Done className={style.icon}/> Custom Website Design</li>
-            <li className={style.li}><Done className={style.icon}/> Web Hosting</li>
-            <li className={style.li}><Done className={style.icon}/> Payment Gatway Integration</li>
             <li className={style.li}><Done className={style.icon}/>  Customized web app development</li>
 
           </ul>
