@@ -12,7 +12,7 @@ function Header() {
         <h1>Shivaprasad K</h1>
         <h5 className="text-light">Data Scientist</h5>
         <div className={style.cta}>
-          <a className="btn" href="/assets/cv.pdf" download>
+          <a className="btn" href="assets/Shivaprasad_K.pdf" download>
             Download CV
           </a>
           <a href="#contact" className="btn btn-primary">
@@ -23,21 +23,21 @@ function Header() {
           Scroll Down
         </a>
         <div className={style.socials}>
-          <a 
+          <a
             href="https://www.linkedin.com/in/shivaprasad-k-32b451289/"
             target="_blank"
             rel="noopener noreferrer"
           >
             <LinkedInIcon />
           </a>
-          <a 
+          <a
             href="https://github.com/Shivaprasad-SK?tab=repositories/"
             target="_blank"
             rel="noopener noreferrer"
           >
             <GitHubIcon />
           </a>
-          <a 
+          <a
             href="https://www.instagram.com/shivaprasad_k_gowda/"
             target="_blank"
             rel="noopener noreferrer"
