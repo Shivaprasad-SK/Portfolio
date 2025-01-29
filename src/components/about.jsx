@@ -16,7 +16,7 @@ function about() {
             <div className={style.card}>
               <BadgeIcon className={style.icon} />
               <h5>Project Experience</h5>
-              <small>Udemy Courses</small>
+              <small>Skill based Courses</small>
             </div>
             <div className={style.card}>
               <FactCheckIcon className={style.icon} />

@@ -40,7 +40,7 @@ function Contact() {
             <h4>Whatsapp</h4>
             <h5>7676600308</h5>
             <a
-              href="https://api.whatsapp.com/send?phone=+917676600308"
+              href="https://api.whatsapp.com/send?phone=917676600308"
               className={style.span}
               target="_blank"
               rel="noopener noreferrer"
