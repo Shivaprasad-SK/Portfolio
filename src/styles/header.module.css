@@ -56,3 +56,30 @@
     }
     
 }
+
+@media screen and (max-width: 1024px) {
+  .container {
+    height: 68vh;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    height: 100vh;
+    padding-top: 3rem;
+  }
+  
+  .socials {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    padding: 1rem 0;
+  }
+
+  .scrollDown {
+    display: none;
+  }
+}

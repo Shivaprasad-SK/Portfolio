@@ -64,3 +64,32 @@
     gap: 1rem;
   }
 }
+
+@media screen and (max-width: 1024px) {
+  .subContainer {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .profile {
+    width: 50%;
+    margin: 2rem auto 4rem;
+  }
+
+  .cards {
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .profile {
+    width: 65%;
+    margin: 0 auto 3rem;
+  }
+
+  .cards {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}

@@ -34,3 +34,11 @@
         right: 2%;
     }
 }
+
+@media screen and (max-width: 600px) {
+  .container {
+    bottom: 1rem;
+    gap: 0.8rem;
+    padding: 0.7rem 1.7rem;
+  }
+}

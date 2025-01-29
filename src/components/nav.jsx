@@ -9,52 +9,42 @@ function Nav() {
   const [activeNav, setActiveNav] = useState("#");
   return (
     <div className={style.container}>
-      <a href={"#"} passHref>
+      <a href="#" className={style.navIcon}>
         <span
           onClick={() => setActiveNav("#")}
-          className={`${style.navIcon} ${
-            activeNav === "#" ? style.active : null
-          }`}
+          className={activeNav === "#" ? style.active : ""}
         >
           <HomeIcon />
         </span>
       </a>
-      <a passHref href={"#about"}>
+      <a href="#about" className={style.navIcon}>
         <span
           onClick={() => setActiveNav("#about")}
-          className={`${style.navIcon}  ${
-            activeNav === "#about" ? style.active : null
-          }`}
+          className={activeNav === "#about" ? style.active : ""}
         >
           <InfoIcon />
         </span>
       </a>
-      <a passHref href={"#experience"}>
+      <a href="#experience" className={style.navIcon}>
         <span
           onClick={() => setActiveNav("#experience")}
-          className={`${style.navIcon}  ${
-            activeNav === "#experience" ? style.active : null
-          }`}
+          className={activeNav === "#experience" ? style.active : ""}
         >
           <DetailsIcon />
         </span>
       </a>
-      <a passHref href={"#services"}>
+      <a href="#services" className={style.navIcon}>
         <span
           onClick={() => setActiveNav("#services")}
-          className={`${style.navIcon} ${
-            activeNav === "#services" ? style.active : null
-          }`}
+          className={activeNav === "#services" ? style.active : ""}
         >
           <Inventory2Icon />
         </span>
       </a>
-      <a passHref href={"#contact"}>
+      <a href="#contact" className={style.navIcon}>
         <span
           onClick={() => setActiveNav("#contact")}
-          className={`${style.navIcon}  ${
-            activeNav === "#contact" ? style.active : null
-          }`}
+          className={activeNav === "#contact" ? style.active : ""}
         >
           <PersonIcon />
         </span>

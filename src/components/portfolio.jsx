@@ -9,7 +9,7 @@ function portfolio() {
       <div className={style.container}>
         <article className={style.item}>
           <div className={style.itemImage}>
-            <img alt="E-commerece" src={"src/assets/eWing.png"} />
+            <img alt="E-commerece" src={"/assets/eWing.png"} />
           </div>
           <h3 className={style.h3}>e-Wing</h3>
           <div className={style.btn}>
@@ -30,7 +30,7 @@ function portfolio() {
         </article>
         <article className={style.item}>
           <div className={style.itemImage}>
-            <img alt="Todo App" src={"src/assets/Todo.png"} />
+            <img alt="Todo App" src={"/assets/Todo.png"} />
           </div>
           <h3 className={style.h3}>Todo App</h3>
           <div className={style.btn}>
@@ -51,7 +51,7 @@ function portfolio() {
         </article>
         <article className={style.item}>
           <div className={style.itemImage}>
-            <img alt="Tic toc toe" src={"src/assets/tictoctoe.png"} />
+            <img alt="Tic toc toe" src={"/assets/tictoctoe.png"} />
           </div>
           <h3 className={style.h3}>Tic Toc Toe</h3>
           <div className={style.btn}>
