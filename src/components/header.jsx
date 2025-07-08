@@ -11,7 +11,7 @@ function Header() {
       <div className={`container ${style.container}`}>
         <h5>Hello I'm</h5>
         <h1>Shivaprasad K</h1>
-        <h5 className="text-light">Data Scientist</h5>
+        <h5 className="text-light">Web Developer</h5>
         <div className={style.cta}>
           <Magnet padding={50} disabled={false} magnetStrength={10}>
             <a className="btn" href="assets/Shivaprasad_K.pdf" download>
