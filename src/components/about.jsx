@@ -2,15 +2,28 @@ import React from "react";
 import style from "../styles/about.module.css";
 import BadgeIcon from "@mui/icons-material/Badge";
 import FactCheckIcon from "@mui/icons-material/FactCheck";
+import ProfileCard from "./ProfileCard";
 function about() {
   return (
     <section id="about" className={style.container}>
       <h5>Get To Know</h5>
       <h2>About Me</h2>
       <div className={style.subContainer}>
+        {/* <ProfileCard
+          name="Shivaprasad K"
+          title="Software Developer"
+          handle="Shiva"
+          status="Online"
+          contactText="Contact Me"
+          avatarUrl="/assets/profile.jpg"
+          showUserInfo={true}
+          enableTilt={true}
+          onContactClick={() => console.log("Contact clicked")}
+        /> */}
         <div className={style.profile}>
           <img className={style.profileImage} src={"/assets/profile.jpg"} />
         </div>
+        {/* </TiltedCard> */}
         <div className={style.details}>
           <div className={style.cards}>
             <div className={style.card}>

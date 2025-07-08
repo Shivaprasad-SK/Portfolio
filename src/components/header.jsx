@@ -3,6 +3,7 @@ import style from "../styles/header.module.css";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import InstagramIcon from "@mui/icons-material/Instagram";
+import Magnet from "./Magnet";
 
 function Header() {
   return (
@@ -12,12 +13,16 @@ function Header() {
         <h1>Shivaprasad K</h1>
         <h5 className="text-light">Data Scientist</h5>
         <div className={style.cta}>
-          <a className="btn" href="assets/Shivaprasad_K.pdf" download>
-            Download CV
-          </a>
-          <a href="#contact" className="btn btn-primary">
-            Let's Talk
-          </a>
+          <Magnet padding={50} disabled={false} magnetStrength={10}>
+            <a className="btn" href="assets/Shivaprasad_K.pdf" download>
+              Download CV
+            </a>
+          </Magnet>
+          <Magnet padding={50} disabled={false} magnetStrength={10}>
+            <a href="#contact" className="btn btn-primary">
+              Let's Talk
+            </a>
+          </Magnet>
         </div>
         <a href="#contact" className={style.scrollDown}>
           Scroll Down

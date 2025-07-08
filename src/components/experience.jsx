@@ -17,16 +17,17 @@ function experience() {
             </div>
             <div className={style.details}>
               <VerifiedIcon className={style.icon} />
+              <h4>Java</h4>
+            </div>
+            <div className={style.details}>
+              <VerifiedIcon className={style.icon} />
               <h4>C</h4>
             </div>
             <div className={style.details}>
               <VerifiedIcon className={style.icon} />
               <h4>C++</h4>
             </div>
-            <div className={style.details}>
-              <VerifiedIcon className={style.icon} />
-              <h4>Java</h4>
-            </div>
+
             <div className={style.details}>
               <VerifiedIcon className={style.icon} />
               <h4>PHP</h4>
@@ -35,34 +36,13 @@ function experience() {
               <VerifiedIcon className={style.icon} />
               <h4>Javascript</h4>
             </div>
-          </div>
-        </div>
-        <div className={style.backEnd}>
-          <h3 className={style.h3}>Data Science</h3>
-          <div className={style.content}>
-            <div className={style.details}>
-              <VerifiedIcon className={style.icon} />
-              <h4>SQL</h4>
-            </div>
-            <div className={style.details}>
-              <VerifiedIcon className={style.icon} />
-              <h4>Python</h4>
-            </div>
             <div className={style.details}>
               <VerifiedIcon className={style.icon} />
               <h4>R</h4>
             </div>
-
-            <div className={style.details}>
-              <VerifiedIcon className={style.icon} />
-              <h4>Statistics</h4>
-            </div>
-            <div className={style.details}>
-              <VerifiedIcon className={style.icon} />
-              <h4>Power BI</h4>
-            </div>
           </div>
         </div>
+
         <div className={style.frontEnd}>
           <h3 className={style.h3}>Frontend Development</h3>
           <div className={style.content}>
@@ -90,6 +70,10 @@ function experience() {
               <VerifiedIcon className={style.icon} />
               <h4>Javascript</h4>
             </div>
+            <div className={style.details}>
+              <VerifiedIcon className={style.icon} />
+              <h4>Bootstrap</h4>
+            </div>
           </div>
         </div>
         <div className={style.backEnd}>
@@ -97,7 +81,7 @@ function experience() {
           <div className={style.content}>
             <div className={style.details}>
               <VerifiedIcon className={style.icon} />
-              <h4>Nodejs</h4>
+              <h4>Node Js</h4>
             </div>
             <div className={style.details}>
               <VerifiedIcon className={style.icon} />
@@ -105,12 +89,53 @@ function experience() {
             </div>
             <div className={style.details}>
               <VerifiedIcon className={style.icon} />
-              <h4>Express</h4>
+              <h4>Express Js</h4>
             </div>
 
             <div className={style.details}>
               <VerifiedIcon className={style.icon} />
               <h4>Javascript</h4>
+            </div>
+            <div className={style.details}>
+              <VerifiedIcon className={style.icon} />
+              <h4>Python</h4>
+            </div>
+            <div className={style.details}>
+              <VerifiedIcon className={style.icon} />
+              <h4>Flask</h4>
+            </div>
+          </div>
+        </div>
+        <div className={style.backEnd}>
+          <h3 className={style.h3}>Others</h3>
+          <div className={style.content}>
+            <div className={style.details}>
+              <VerifiedIcon className={style.icon} />
+              <h4>SQL</h4>
+            </div>
+            <div className={style.details}>
+              <VerifiedIcon className={style.icon} />
+              <h4>Docker</h4>
+            </div>
+            <div className={style.details}>
+              <VerifiedIcon className={style.icon} />
+              <h4>Git</h4>
+            </div>
+            <div className={style.details}>
+              <VerifiedIcon className={style.icon} />
+              <h4>Github</h4>
+            </div>
+            <div className={style.details}>
+              <VerifiedIcon className={style.icon} />
+              <h4>Jupyter</h4>
+            </div>
+            <div className={style.details}>
+              <VerifiedIcon className={style.icon} />
+              <h4>VS Code</h4>
+            </div>
+            <div className={style.details}>
+              <VerifiedIcon className={style.icon} />
+              <h4>Postman</h4>
             </div>
           </div>
         </div>

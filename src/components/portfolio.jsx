@@ -9,6 +9,27 @@ function portfolio() {
       <div className={style.container}>
         <article className={style.item}>
           <div className={style.itemImage}>
+            <img alt="Chat App" src={"/assets/ChatApp.png"} />
+          </div>
+          <h3 className={style.h3}>Chat App</h3>
+          <div className={style.btn}>
+            <a
+              href="https://github.com/Shivaprasad-SK/Chat"
+              className="btn btn-primary"
+            >
+              Github
+            </a>
+            <a
+              href="https://chats-mocha.vercel.app/"
+              title="Chat App live"
+              className="btn"
+            >
+              Live Demo
+            </a>
+          </div>
+        </article>
+        <article className={style.item}>
+          <div className={style.itemImage}>
             <img alt="E-commerece" src={"/assets/eWing.png"} />
           </div>
           <h3 className={style.h3}>e-Wing</h3>
