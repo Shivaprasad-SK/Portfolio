@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import style from "../styles/header.module.css";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
@@ -9,7 +9,7 @@ function Header() {
   return (
     <header className={style.header}>
       <div className={`container ${style.container}`}>
-        <h5>Hello I'm</h5>
+        <h5>Hello I&apos;m</h5>
         <h1>Shivaprasad K</h1>
         <h5 className="text-light">Web Developer</h5>
         <div className={style.cta}>
@@ -20,7 +20,7 @@ function Header() {
           </Magnet>
           <Magnet padding={50} disabled={false} magnetStrength={10}>
             <a href="#contact" className="btn btn-primary">
-              Let's Talk
+              Let&apos;s Talk
             </a>
           </Magnet>
         </div>
